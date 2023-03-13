@@ -46,7 +46,7 @@ There are two app impelementations:
 *Slack requirements*
 - Create an App for your workspace if it is not created
 - Activate Incoming Webhooks in your Slack App
-- Add new webhook for your channel by selecting
+- Add new webhook for your channel
 - Set the environment variables for SLACK_WEBHOOK_URL in .env file
 
 `flask --app slack_alert_webhook run`
