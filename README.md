@@ -88,7 +88,5 @@ A payload that should not result in an alert
 
 ### Deployment 
 Start the application with Gunicorn
-`gunicorn -w 4 'slack_alert:app`
+`gunicorn -w 4 'slack_alert:app'`
 
-**Next steps**
-Thread slack notifications for an email for one day period only.
